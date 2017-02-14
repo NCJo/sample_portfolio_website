@@ -1,0 +1,66 @@
+/*Without "!important" background-color doesn't work*/
+body {
+  background-color: #161616 !important;
+}
+.f_bevan {
+  font-family: Bevan;
+}
+.f_oswald {
+  font-family: Oswald;
+}
+.f_arvo {
+  font-family: Arvo;
+}
+.area_det {
+  background-color: red;
+}
+/*separator between elements*/
+.mar {
+  margin: 10px, 10px, 10px, 10px;
+}
+.f_grey {
+  color: #f7f9fc;
+  font-size: 2.1vmax;
+  text-align: center;
+}
+
+/*THIS BLOCK DETERMINE GRID LAYOUT OF IMAGES*/
+.square {
+    float:left;  /*positioning property, need to fidget*/
+    position: relative;  /*need to fidget*/
+    width: 30%;  /*need to fidget*/
+    padding-bottom : 30%; /* = width for a 1:1 aspect ratio, need to fidget */
+    margin: 1.66%;  /*need to fidget*/
+    background-position:center center;  /*need to fidget*/
+    background-repeat:no-repeat;  /*need to fidget*/
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped, need to fidget */
+}
+
+.img_1-1{background-image:url('https://ee5817f8e2e9a2e34042-3365e7f0719651e5b8d0979bce83c558.ssl.cf5.rackcdn.com/python.png');}
+.img_1-2{background-image:url('https://compixtv.files.wordpress.com/2011/05/icon_cs5illustrator.png');}
+.img_1-3{background-image:url('https://www.easyprogramming.net/logo/c.png');}
+
+.img_2-1{background-image:url('https://achievement-images.teamtreehouse.com/badges_intro_to_html_css_stage-01.png');}
+.img_2-2{background-image:url('http://aaronkwhite.com/images/bootstrap_wall.png');}
+.img_2-3{background-image:url('https://www.sitepoint.com/wp-content/themes/sitepoint/assets/images/icon.javascript.png');}
+
+.img_3-1{background-image:url('https://s-media-cache-ak0.pinimg.com/736x/a9/a3/46/a9a34606f68f5f86aa94833ad482e4c9.jpg');}
+.img_3-2{background-image:url('http://i.telegraph.co.uk/multimedia/archive/03542/black_and_white_ca_3542249b.jpg');}
+.img_3-3{background-image:url('https://upload.wikimedia.org/wikipedia/commons/2/22/Turkish_Van_Cat.jpg');}
+/*END OF IMAGE GRID*/
+/*Gap between grid images and next section*/
+#Main-2 {
+  margin-top: 10%;
+}
+
+.web_1-1{background-image:url('http://www.freeiconspng.com/uploads/website-icon-11.png');}
+.web_1-2{background-image:url('http://www.freeiconspng.com/uploads/website-icon-11.png');}
+.web_1-3{background-image:url('http://www.freeiconspng.com/uploads/website-icon-11.png');}
+
+.web_2-1{background-image:url('');}
+.web_2-2{background-image:url('');}
+.web_2-3{background-image:url('');}
+
+.web_3-1{background-image:url('');}
+.web_3-2{background-image:url('');}
+.web_3-3{background-image:url('');}
